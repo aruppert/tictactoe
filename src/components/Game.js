@@ -10,10 +10,10 @@ const FlexRow = styled.div`
 export default function Game() {
   return (
     <FlexRow>
-      <div className="game-board">
-        <Board />
+      <div>
+        <Board gameSize={16} />
       </div>
-      <div className="game-info">
+      <div>
         <div>{/* status */}</div>
         <ol>{/* TODO */}</ol>
       </div>

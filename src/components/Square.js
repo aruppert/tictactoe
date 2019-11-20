@@ -2,7 +2,6 @@ import React from "react";
 import styled from "@emotion/styled";
 
 const Button = styled.button`
-  background: lightgrey;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
@@ -13,7 +12,7 @@ const Button = styled.button`
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 33%;
 
   :focus {
     outline: none;
