@@ -1,9 +1,11 @@
 import React from "react";
 import styled from "@emotion/styled";
 import Game from "./components/Game";
+import GlobalStyles from "./components/GlobalStyles";
 
 const Container = styled.div`
   text-align: center;
+  justify-content: center;
   background-color: #282c34;
   min-height: 100vh;
   padding: 20px;
@@ -14,6 +16,7 @@ const Container = styled.div`
 function App() {
   return (
     <Container>
+      <GlobalStyles />
       <h1>TicTacToe</h1>
       <Game />
     </Container>
