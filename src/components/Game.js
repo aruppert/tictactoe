@@ -1,9 +1,15 @@
 import React from "react";
+import styled from "@emotion/styled";
 import Board from "./Board";
+
+const FlexRow = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
 
 export default function Game() {
   return (
-    <div className="game">
+    <FlexRow>
       <div className="game-board">
         <Board />
       </div>
@@ -11,6 +17,6 @@ export default function Game() {
         <div>{/* status */}</div>
         <ol>{/* TODO */}</ol>
       </div>
-    </div>
+    </FlexRow>
   );
 }
